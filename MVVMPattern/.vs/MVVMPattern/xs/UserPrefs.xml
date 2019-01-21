@@ -1,15 +1,30 @@
-﻿<Properties StartupConfiguration="{EC9DEB23-DAD8-42BD-AB84-39ED3AF5330E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/MainPage.xaml">
+﻿<Properties StartupConfiguration="{21B28D6B-CBAA-4896-ACBA-5797088D63A5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/Models/TaskModel.cs">
     <Files>
       <File FileName="MVVMPattern/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="MVVMPattern/MainPage.xaml" Line="9" Column="15" />
+      <File FileName="MVVMPattern/MainPage.xaml" Line="9" Column="36" />
+      <File FileName="MVVMPattern/Models/TaskModel.cs" Line="7" Column="43" />
+      <File FileName="MVVMPattern/ViewModels/HomeViewModel.cs" Line="6" Column="9" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVVMPattern" expanded="True">
+            <Node name="MVVMPattern" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="TaskModel.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MVVMPattern.Android FirstBuild="True" PreferredExecutionTarget="Android.flutter_emulator" />
-  <MonoDevelop.Ide.ItemProperties.MVVMPattern.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MVVMPattern.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1CEB303F-80BB-4254-85AC-0B3817C65C33" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MVVMPattern FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
