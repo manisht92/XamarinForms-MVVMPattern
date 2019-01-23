@@ -1,10 +1,27 @@
 ﻿<Properties StartupConfiguration="{21B28D6B-CBAA-4896-ACBA-5797088D63A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/ViewModels/HomeViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/Converters/TextToColorConverter.cs">
     <Files>
       <File FileName="MVVMPattern/MainPage.xaml.cs" Line="15" Column="10" />
       <File FileName="MVVMPattern/MainPage.xaml" Line="16" Column="51" />
-      <File FileName="MVVMPattern/ViewModels/HomeViewModel.cs" Line="36" Column="18" />
+      <File FileName="MVVMPattern/ViewModels/HomeViewModel.cs" Line="39" Column="14" />
+      <File FileName="MVVMPattern/Converters/TextToColorConverter.cs" Line="4" Column="41" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVVMPattern" expanded="True">
+            <Node name="MVVMPattern" expanded="True">
+              <Node name="Converters" expanded="True">
+                <Node name="TextToColorConverter.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MVVMPattern.Android FirstBuild="True" PreferredExecutionTarget="Android.flutter_emulator" />
   <MonoDevelop.Ide.ItemProperties.MVVMPattern.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C4DA9CBF-170B-441C-AEFF-5F4291F473E6" />

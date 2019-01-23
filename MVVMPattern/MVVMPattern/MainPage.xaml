@@ -3,16 +3,20 @@
               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MVVMPattern"
               x:Class="MVVMPattern.MainPage"
               xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-              ios:Page.UseSafeArea="true">
+              ios:Page.UseSafeArea="true"
+              xmlns:converter="clr-namespace:MVVMPattern.Converters;assembly:MVVMPattern">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:TextToColorConverter x:Key="TextToColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <StackLayout Padding="20" Spacing="10">
         <Label Text="Title of the Task" />
         <Entry Text="{Binding TaskModel.Title, Mode=TwoWay}" />
         <Label Text="Duration of the Task" />
         <Entry Text="{Binding TaskModel.Duration}" />
-            
         <Button Text="Save" Command="{Binding SaveCommand}" />
         <Button Text="Change Model Value" Command="{Binding ChangeCommand}" />
-        
-        <Label Text="{Binding Message, Mode=TwoWay}" />
+        <Label Text="{Binding Message, Mode=TwoWay}" TextColor="{Binding Message,Converter={StaticResource TextToColor}}" />
     </StackLayout>
 </ContentPage>
