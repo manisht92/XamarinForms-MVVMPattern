@@ -4,10 +4,15 @@
               x:Class="MVVMPattern.MainPage"
               xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
               ios:Page.UseSafeArea="true">
-    <StackLayout Padding="20">
+    <StackLayout Padding="20" Spacing="10">
         <Label Text="Title of the Task" />
-        <Entry x:Name="title" Text="{Binding TaskModel.Title}" />
+        <Entry Text="{Binding TaskModel.Title, Mode=TwoWay}" />
         <Label Text="Duration of the Task" />
-        <Entry x:Name="duration" Text="{Binding TaskModel.Duration}" />
+        <Entry Text="{Binding TaskModel.Duration}" />
+            
+        <Button Text="Save" Command="{Binding SaveCommand}" />
+        <Button Text="Change Model Value" Command="{Binding ChangeCommand}" />
+        
+        <Label Text="{Binding Message, Mode=TwoWay}" />
     </StackLayout>
 </ContentPage>
