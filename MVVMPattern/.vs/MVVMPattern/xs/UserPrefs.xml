@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="{21B28D6B-CBAA-4896-ACBA-5797088D63A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/Converters/TextToColorConverter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMPattern/MyPage.xaml">
     <Files>
-      <File FileName="MVVMPattern/MainPage.xaml.cs" Line="15" Column="10" />
-      <File FileName="MVVMPattern/MainPage.xaml" Line="16" Column="51" />
-      <File FileName="MVVMPattern/ViewModels/HomeViewModel.cs" Line="39" Column="14" />
-      <File FileName="MVVMPattern/Converters/TextToColorConverter.cs" Line="4" Column="41" />
+      <File FileName="MVVMPattern/MyPage.xaml" Line="20" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MVVMPattern" expanded="True">
             <Node name="MVVMPattern" expanded="True">
-              <Node name="Converters" expanded="True">
-                <Node name="TextToColorConverter.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MyPage.xaml" selected="True" />
             </Node>
           </Node>
         </State>

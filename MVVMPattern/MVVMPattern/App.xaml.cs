@@ -11,7 +11,7 @@ namespace MVVMPattern
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MyPage();
         }
 
         protected override void OnStart()
